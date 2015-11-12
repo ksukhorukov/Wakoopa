@@ -1,0 +1,15 @@
+<h3>The total numbers of unique users, per day, on facebook.com.</h3>
+<div class="container">
+  <div class='row'>
+        <table class="table">
+          <th>Date</th>
+          <th>Number</th>
+          <% report.each do |stats| %>
+            <tr>
+              <td><%= stats.date %></td>
+              <td><%= stats.unique_visits %></td>
+            </tr>
+          <% end %>
+        </table>
+    </div>
+</div>

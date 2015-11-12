@@ -1,0 +1,16 @@
+<h3>The per­day average number of seconds spent on Google properties (google.*)
+between 20:00 and 23:00, by people that also have visited facebook.com.</h3>
+<div class="container">
+  <div class='row'>
+        <table class="table">
+          <th>Date</th>
+          <th>Average</th>
+          <% report.each do |stats| %>
+            <tr>
+              <td><%= stats.date %></td>
+              <td><%= stats.average %></td>
+            </tr>
+          <% end %>
+        </table>
+    </div>
+</div>
