@@ -14,6 +14,7 @@ Do the following steps:
 
 ```
 $ git clone https://github.com/ksukhorukov/Wakoopa
+$ cd Wakoopa
 $ rvm use ruby-2.1.5@wakoopa --create
 $ bundle
 $ rake db:migrate
