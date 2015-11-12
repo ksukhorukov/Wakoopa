@@ -19,7 +19,7 @@ $ bundle
 $ rake db:migrate
 $ rake data:parse
 $ rake statistics:calc
-$ chmox +x app.rb
+$ chmod +x app.rb
 $ ./app.rb
 ```
 Then open  http://localhost:4567 
