@@ -1,6 +1,6 @@
 # Wakoopa Statistics
 
-Parse and process statistical information form large log files.
+Parse and process statistical information from large log files.
 
 # Components
 
@@ -18,7 +18,7 @@ $ rvm use ruby-2.1.5@wakoopa --create
 $ bundle
 $ rake db:migrate
 $ rake data:parse
-$ rake rake statistics:calc
+$ rake statistics:calc
 $ chmox +x app.rb
 $ ./app.rb
 ```
